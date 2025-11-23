@@ -1,0 +1,30 @@
+<!-- frontend/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Starbucks Café — AI Barista</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg">
+  <main class="card">
+    <img class="logo" src="../assets/starbucks_ui.png" alt="Starbucks UI / promotional" />
+    <h1>STARBUCKS</h1>
+    <h2>CAFÉ</h2>
+
+    <p class="subtitle">Order in minutes with our AI barista!</p>
+
+    <a class="cta" href="#" onclick="startCall()">START CALL →</a>
+
+    <p class="tip">Built with LiveKit Agents · Murf Falcon TTS</p>
+  </main>
+
+  <script>
+    function startCall() {
+      alert("Start call clicked — connect to LiveKit / agent flow (wire this to your backend LiveKit token).");
+      // In a full integration: fetch a LiveKit token, connect RT, route audio to backend agent
+    }
+  </script>
+</body>
+</html>
