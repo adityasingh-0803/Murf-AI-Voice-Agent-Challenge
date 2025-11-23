@@ -1,0 +1,64 @@
+/* frontend/styles.css */
+:root{
+  --green:#0b4a36;
+  --cream:#f0ead6;
+  --button:#21523c;
+}
+
+body,html{
+  height:100%;
+  margin:0;
+  font-family: Inter, Arial, sans-serif;
+  background: linear-gradient(180deg, #06362b 0%, #0b4a36 100%);
+  color:var(--cream);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.card{
+  width:360px;
+  text-align:center;
+  padding:28px;
+  border-radius:14px;
+}
+
+.logo{
+  width:200px;
+  margin:0 auto 12px;
+  display:block;
+  border-radius:8px;
+  background:rgba(255,255,255,0.02);
+}
+
+h1{
+  margin:6px 0 0;
+  font-size:36px;
+  letter-spacing:2px;
+}
+
+h2{
+  margin:4px 0 12px;
+  font-size:18px;
+  color:var(--cream);
+  opacity:0.9;
+}
+
+.subtitle{
+  margin-bottom:18px;
+  font-size:14px;
+  opacity:0.95;
+}
+
+.cta{
+  display:inline-block;
+  padding:14px 28px;
+  background:var(--button);
+  color:var(--cream);
+  text-decoration:none;
+  border-radius:40px;
+  font-weight:600;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+.tip{ margin-top:14px; font-size:12px; opacity:0.8; }
