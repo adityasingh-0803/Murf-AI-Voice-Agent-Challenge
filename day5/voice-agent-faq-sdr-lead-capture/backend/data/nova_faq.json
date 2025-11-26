@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "question": "What is NovaCRM?",
+    "answer": "NovaCRM is a sales CRM designed for Indian SMBs."
+  },
+  {
+    "id": "2",
+    "question": "Does NovaCRM support WhatsApp integration?",
+    "answer": "Yes, NovaCRM has native WhatsApp integration."
+  },
+  {
+    "id": "3",
+    "question": "Is there a free trial?",
+    "answer": "Yes, NovaCRM offers a 14-day free trial."
+  },
+  {
+    "id": "4",
+    "question": "What pricing plans do you have?",
+    "answer": "NovaCRM offers Starter, Growth, and Scale plans."
+  }
+]
